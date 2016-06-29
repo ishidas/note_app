@@ -1,0 +1,33 @@
+{
+  "name": "note_app",
+  "version": "1.0.0",
+  "description": "Note App",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishidas/note_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishidas/note_app/issues"
+  },
+  "homepage": "https://github.com/ishidas/note_app#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.2",
+    "morgan": "^1.7.0"
+  }
+}
