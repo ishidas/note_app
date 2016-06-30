@@ -4,7 +4,7 @@
 module.exports = function(app, noteController, model){
 
   app.get('/', (req, res)=>{
-    console.log('model', model.Note);
+    console.log('model', model);
     noteController.getAllNotes()
     .then( note =>{
       console.log('note??', note);
